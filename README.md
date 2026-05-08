@@ -1,11 +1,11 @@
 # seatunnel-udf-demo
 This is a demo project for playing with UDF on Apache Seatunnel.  
-Now we have SM2Encrypt and SM2Decrypt in SQL UDF mode. **(WIP)**
+Now we have SM2Encrypt, SM2Decrypt, TripleDESEncrypt, TripleDESDecrypt in SQL UDF mode. **(WIP)**
 
 ## How to use it
 1. Clone this project
 2. Use maven to package it as a jar file
-3. Copy this jar and other libraries into `$SEATUNNEL_HOME/lib`
+3. Copy this jar and other libraries into `$SEATUNNEL_HOME/lib`, like `bcprov-jdk18on-1.83.jar`
 4. Edit Seatunnel job. here is the demo job for you to test it.
 ```
 env {

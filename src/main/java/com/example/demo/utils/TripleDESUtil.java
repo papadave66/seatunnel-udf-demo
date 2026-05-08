@@ -13,6 +13,7 @@ import java.security.SecureRandom;
 import java.security.Security;
 
 public class TripleDESUtil {
+    public static String KEY = "f589514c39f554a662ab87f85d812644aa3a3c64b1c8f880";
     /**
      * 算法配置
      * 1.CBC模式下加解密 Cipher 初始化必须传入同一个 IvParameterSpec 实例参数
