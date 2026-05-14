@@ -1,6 +1,6 @@
 # seatunnel-udf-demo
 This is a demo project for playing with UDF on Apache Seatunnel.  
-Now we have SM2Encrypt, SM2Decrypt, TripleDESEncrypt, TripleDESDecrypt in SQL UDF mode. **(WIP)**
+Now we have SM2Encrypt, SM2Decrypt, SM4Encrypt, SM4Decrypt, TripleDESEncrypt, TripleDESDecrypt in SQL UDF mode. **(WIP)**
 
 ## How to use it
 1. Clone this project

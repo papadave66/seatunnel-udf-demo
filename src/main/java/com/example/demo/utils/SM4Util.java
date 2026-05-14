@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.UUID;
 
 public class SM4Util {
-
+    public static String KEY = "f0c5a8b001314979b27e110c205a66e1";
 
     //SBOX,共16*16=256个,每个1字节,用密钥生成轮密钥时使用
     private static final int[][] SBOX = {
